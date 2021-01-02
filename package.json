@@ -1,7 +1,7 @@
 {
   "name": "goit-js-hw-10-food-service",
   "version": "1.1.0",
-  "description": "",
+  "description": "- Создан репозиторий `goit-js-hw-10-food-service`. - При сдаче домашней работы есть две ссылки: на исходные файлы и рабочую   страницу на GitHub pages. - При посещении рабочей страницы (GitHub pages) задания, в консоли нету ошибок и   предупреждений. - Имена переменных и функций понятные, описательные. - Проект собран с помощью `Webpack`. - Код отформатирован с помощью `Prettier`.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnriLeroy/goit-js-hw-10-food-service"
+    "url": "git+https://github.com/valeriavoronova/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
   "author": "Valeria Voronova <valeriavoronova1990@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AnriLeroy/goit-js-hw-10-food-service"
+    "url": "https://github.com/valeriavoronova/goit-js-hw-10-food-service"
   },
-  "homepage": "https://github.com/AnriLeroy.github.io/goit-js-hw-10-food-service#readme",
+  "homepage": "https://github.com/valeriavoronova.github.io/goit-js-hw-10-food-service#readme",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -43,13 +43,12 @@
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.11.0",
-    "webpack-cli": "^4.2.0",
+    "webpack-cli": "^4.3.0",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.7.2",
+    "webpack-merge": "^5.7.3",
     "webpackbar": "^4.0.0"
   },
   "dependencies": {
     "core-js": "^3.8.1",
     "handlebars": "^4.7.6"
   }
-}
